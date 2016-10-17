@@ -14,6 +14,9 @@ module.exports = {
       query: {
         plugins: ["react-hot-loader/babel"]  // Include the react-hot loader
       }
+    }, {
+      test: /\.css$/,
+      loader: 'style!css'
     }]
   },
   resolve: {
